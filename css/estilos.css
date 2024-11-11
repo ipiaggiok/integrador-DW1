@@ -175,7 +175,6 @@ form button {
 }
 
 @media (max-width: 992px) {
-    /* Asegúrate de que el navbar esté en una columna y centrado */
     .navbar-collapse {
         display: flex;
         flex-direction: column;
@@ -183,24 +182,19 @@ form button {
         background-color: beige;
         border-radius: 20px;
         padding: 20px 0;
+        z-index: 1;
     }
 
-    /* Estilos para los enlaces del menú */
     .navbar-nav .nav-link {
-        color: #333; /* Cambia el color del texto si lo deseas */
-        padding: 10px 0; /* Espacio entre los elementos del menú */
-        font-size: 18px; /* Ajusta el tamaño del texto */
+        color: #333;
+        padding: 10px 0; 
+        font-size: 18px;
     }
 
-    /* Estilo para el botón del menú hamburguesa */
     .navbar-toggler {
-        border-color: #333; /* Color del borde del botón */
+        border-color: #333;
     }
-    .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(51, 51, 51, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Cambia el color del icono */
-    }
-
-    /* Ajuste para el botón de "Solicita tu turno" en el menú desplegable */
+    
     .boton-nav {
         width: 100%;
         margin: 10px 0;
