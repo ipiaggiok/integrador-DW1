@@ -99,6 +99,7 @@ footer {
 
 .navbar-collapse {
     justify-content: flex-end;
+    z-index: 1;
 }
 
 .pages-title {
