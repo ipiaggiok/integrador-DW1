@@ -27,6 +27,10 @@ body {
     height: 500px;
 }
 
+.carousel {
+    z-index: -1;
+}
+
 h1 {
     color: #F1CA7F !important;
     text-align: center;
@@ -150,10 +154,6 @@ footer {
 .bg-alt {
     background-color: #faf3e0;
 }
-
-/* .urg-info {
-    margin-left: 190px;
-} */
 
 form {
     background-color: rgba(243, 238, 225, 1);
